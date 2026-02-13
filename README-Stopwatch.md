@@ -1,5 +1,7 @@
 🕒 **React Stopwatch App :**
 
+    🔗 **Live Demo:** https://saumya-react-stopwatch.netlify.app/
+
   A simple and responsive stopwatch application built using React and Vite.
   This app allows users to start, stop, and reset a timer with a clean and centered user interface.
 
@@ -74,11 +76,4 @@
 
  - `clearInterval()` stops the timer.
 
-📸 Screenshot
 
-(Here you can add a screenshot of your app later)
-
-👩‍💻 Author
-
-Saumya Verma
-Frontend Developer (React Enthusiast)
