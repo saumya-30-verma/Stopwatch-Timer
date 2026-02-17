@@ -6,6 +6,7 @@ function App() {
   const timerRef = useRef(null);
 
   function startTimer() {
+    if (timerRef.current !== null) return;
    timerRef.current = setInterval(() => {
      setTime(time=>time+1)
    }, 100);
@@ -22,6 +23,10 @@ function App() {
     setTime(0);
   }
 
+  useEffect(() => {
+    return ()=> clearInterval(timerRef.current)
+  }, [])
+  
 
   return (
     <>
