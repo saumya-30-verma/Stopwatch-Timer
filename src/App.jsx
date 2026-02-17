@@ -9,7 +9,7 @@ function App() {
     if (timerRef.current !== null) return;
    timerRef.current = setInterval(() => {
      setTime(time=>time+1)
-   }, 100);
+   }, 1000);
   }
 
   function stopTimer() {
